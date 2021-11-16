@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"filizulas_deneme\startup_stm32f072xb.o"
+"filizulas_deneme\main.o"
+"filizulas_deneme\stm32f0xx_it.o"
+"filizulas_deneme\stm32f0xx_hal_msp.o"
+"filizulas_deneme\stm32f0xx_hal_tim.o"
+"filizulas_deneme\stm32f0xx_hal_tim_ex.o"
+"filizulas_deneme\stm32f0xx_hal_uart.o"
+"filizulas_deneme\stm32f0xx_hal_uart_ex.o"
+"filizulas_deneme\stm32f0xx_hal_rcc.o"
+"filizulas_deneme\stm32f0xx_hal_rcc_ex.o"
+"filizulas_deneme\stm32f0xx_hal.o"
+"filizulas_deneme\stm32f0xx_hal_i2c.o"
+"filizulas_deneme\stm32f0xx_hal_i2c_ex.o"
+"filizulas_deneme\stm32f0xx_hal_gpio.o"
+"filizulas_deneme\stm32f0xx_hal_dma.o"
+"filizulas_deneme\stm32f0xx_hal_cortex.o"
+"filizulas_deneme\stm32f0xx_hal_pwr.o"
+"filizulas_deneme\stm32f0xx_hal_pwr_ex.o"
+"filizulas_deneme\stm32f0xx_hal_flash.o"
+"filizulas_deneme\stm32f0xx_hal_flash_ex.o"
+"filizulas_deneme\stm32f0xx_hal_exti.o"
+"filizulas_deneme\system_stm32f0xx.o"
+--strict --scatter "FilizUlas_deneme\FilizUlas_deneme.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "FilizUlas_deneme.map" -o FilizUlas_deneme\FilizUlas_deneme.axf
